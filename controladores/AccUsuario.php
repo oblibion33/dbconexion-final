@@ -1,4 +1,4 @@
-<?php
+    <?php
 include ("../clases/Usuario.php");
 include ("../lib/constantes.php");
 include ("../lib/db.php");
@@ -115,6 +115,8 @@ and open the template in the editor.
               <input class="btn btn-primary" value="Actualizar" type="submit">
             <span></span>
             <input class="btn btn-default" value="Cancel" type="reset">
+            <span></span>
+            <a class="btn btn-default" href="<?=URLBASE?>CerrarSesion.php">Cerrar Sesion</a>   
           </div>
         </div>
       </form>

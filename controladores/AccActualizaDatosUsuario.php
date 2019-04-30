@@ -33,11 +33,22 @@ $sDirArchivo=DIRBASE."/img/usuario/".$sArchivo;
 /*Nombre original*/
 $sNomArchivo=$_FILES["imgusuario"]["name"];
 
+
+/* Setea nuevos datos*/
+
 /*Cambio de ubicación archivo temporal*/
 move_uploaded_file($_FILES["imgusuario"]["tmp_name"], $sDirArchivo);
 
 /*Actualización en la BBDD*/
 $oUsr->setNomarchivo($sNomArchivo);
+/*
+$oUsr->set($sNomArchivo);
+$oUsr->setNomarchivo($sNomArchivo);
+$oUsr->setNomarchivo($sNomArchivo);
+$oUsr->setNomarchivo($sNomArchivo);
+$oUsr->setNomarchivo($sNomArchivo);
+ * 
+ */
 $oUsr->setArchivo($idusuario.".".$arrfile["extension"]);
 
 $oUsr->ActualizaDatos();
