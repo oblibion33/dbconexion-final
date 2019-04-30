@@ -78,19 +78,6 @@ and open the template in the editor.
             <input class="form-control" value="<?=$oUsr->getNombre();?>" type="text">
           </div>
         </div>
-        
-        <div class="form-group">
-          <label class="col-lg-3 control-label">Compañia:</label>
-          <div class="col-lg-8">
-            <input class="form-control" value="" type="text">
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="col-lg-3 control-label">Email:</label>
-          <div class="col-lg-8">
-            <input class="form-control" value="" type="text">
-          </div>
-        </div>
         <div class="form-group">
           <label class="col-md-3 control-label">Nombre de usuario:</label>
           <div class="col-md-8">
