@@ -75,7 +75,7 @@ and open the template in the editor.
         <div class="form-group">
           <label class="col-lg-3 control-label">Nombre:</label>
           <div class="col-lg-8">
-            <input class="form-control" value="<?=$oUsr->getNombre();?>" type="text">
+              <input name="nombre"class="form-control" value="<?=$oUsr->getNombre();?>" type="text">
           </div>
         </div>
         <div class="form-group">
@@ -87,13 +87,13 @@ and open the template in the editor.
         <div class="form-group">
           <label class="col-md-3 control-label">Clave:</label>
           <div class="col-md-8">
-            <input class="form-control" value="" type="password">
+              <input name="clave1" class="form-control" value="" type="password">
           </div>
         </div>
         <div class="form-group">
           <label class="col-md-3 control-label">Confirme la clave:</label>
           <div class="col-md-8">
-            <input class="form-control" value="" type="password">
+              <input name="clave2" class="form-control" value="" type="password">
           </div>
         </div>
         <div class="form-group">
